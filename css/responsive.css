@@ -1,0 +1,336 @@
+/* Mobile Devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    .bars {
+        display: inline;
+        margin-top: -120px;
+        margin-left: auto;
+        right: 10px;
+        font-size: 22px;
+        position: relative;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .nav-container {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .nav-list {
+        border-top: 3px solid #000;
+        width: 100%;
+        display: none;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        gap: 20px;
+        background-color: #fff;
+    }
+
+    ul li a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        font-size: 16px;
+    }
+
+    .nav-logo img {
+        padding-left: 20px;
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    #header {
+        width: 100%;
+        /* background-size: auto; */
+        /* or any specific style for mobile header */
+    }
+
+   
+    .content {
+        margin-left: 20px;
+
+    }
+
+    .content .myself {
+        width: 100%;
+    }
+
+    .services {
+        margin-top: 400px;
+    }
+
+    .services .subtitle{
+        margin-top: 30px;
+    }
+    .services-boxes {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-boxes div {
+        width: 80%;
+    }
+
+    .portfolio-main {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .my-portfolio {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .project-detail {
+        width: 80%;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 100px;
+        gap: 0px;
+        /* width: 80%; */
+    }
+
+    .details button {
+        width: 100%;
+        margin-left: 0px;
+        bottom: 0px;
+    }
+
+    .contact-left {
+        margin-top: 300px;
+
+    }
+
+    form {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    .contact-right .btn {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* Tablets (768px to 1023px) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .bars {
+        display: inline;
+        margin-top: -120px;
+        margin-left: auto;
+        right: 10px;
+        font-size: 22px;
+        position: relative;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .nav-container {
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .nav-list {
+        border-top: 3px solid #000;
+        width: 100%;
+        display: none;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        gap: 20px;
+        background-color: #fff;
+    }
+
+    ul li a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+
+    .nav-links {
+        font-size: 16px;
+    }
+
+    .nav-logo img {
+        padding-left: 20px;
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    #header {
+        width: 100%;
+        background-size: auto;
+        /* or any specific style for mobile header */
+    }
+
+    .content {
+        margin-left: 20px;
+    }
+
+    .content .myself {
+        width: 100%;
+    }
+
+    .services-boxes {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-boxes div {
+        width: 80%;
+    }
+
+    .portfolio-main {
+        margin-top: 100px;
+    }
+
+    .my-portfolio {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project-detail {
+        width: 100%;
+    }
+
+    .project-detail {
+        width: 500px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 100px;
+        gap: 0px;
+    }
+
+    .contact-left {
+        margin-top: 300px;
+
+    }
+
+    form {
+        margin-right: 0;
+        margin-top: 100px;
+    }
+
+    .contact-right .btn {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* Not Required */
+/* Desktops and Laptops (1024px and above) */
+@media only screen and (min-width: 1024px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .bars{
+        display: none;
+        color: #fff;
+    }
+
+
+    .nav-list {
+        padding-right: 300px;
+    }
+
+    .nav-links {
+        font-size: 18px;
+    }
+
+    .nav-logo img {
+        padding-left: 80px;
+        width: 320px;
+        height: 70px;
+        margin-left: 70px;
+    }
+
+    .content {
+        margin-left: 150px;
+    }
+
+    .services-boxes div {
+        width: 400px;
+    }
+
+    .project-detail {
+        width: 400px;
+    }
+
+    form {
+        margin-right: 20px;
+    }
+}
